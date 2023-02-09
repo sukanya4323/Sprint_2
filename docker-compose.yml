@@ -5,7 +5,7 @@ services:
     image: 'sukanya88/onlineayurveda.jar:latest'
     build:
       context: .
-    container_name: app
+    container_name: application
     restart: always
     ports:
       - 8090:8090
