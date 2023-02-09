@@ -12,7 +12,7 @@ services:
     depends_on:
       - db    
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/training
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/sprintproject
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=Sukany@4323
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
@@ -23,7 +23,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=Sukany@4323
-      - POSTGRES_DB=training
+      - POSTGRES_DB=sprintproject
      
     expose:
       - "5432:5432" 
