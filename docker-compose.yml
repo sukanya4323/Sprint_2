@@ -2,7 +2,7 @@ version: "2"
 
 services:
   app:
-    image: 'sukanya88/oamed.jar:latest'
+    image: 'sukanya88/onlineaurveda.jar:latest'
     build:
       context: .
     container_name: application
