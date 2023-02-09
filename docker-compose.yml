@@ -2,7 +2,7 @@ version: "2"
 
 services:
   app:
-    image: 'chaashish/bankingapptest.jar:latest'
+    image: 'sukanya88/onlineayurveda.jar:latest'
     build:
       context: .
     container_name: app
