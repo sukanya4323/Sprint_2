@@ -1,0 +1,6 @@
+com.example.OnlineAyurvedaMedicine
+com.example.OnlineAyurvedaMedicine.controller
+com.example.OnlineAyurvedaMedicine.entity
+com.example.OnlineAyurvedaMedicine.exception
+com.example.OnlineAyurvedaMedicine.repository
+com.example.OnlineAyurvedaMedicine.service
