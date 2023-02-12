@@ -2,28 +2,28 @@ version: "2"
 
 services:
   app:
-    image: 'chaashish/bankingapptest.jar:latest'
+    image: 'sukanya88/onlineaurveda.jar:latest'
     build:
       context: .
-    container_name: app
+    container_name: application
     restart: always
     ports:
       - 8090:8090
     depends_on:
       - db    
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/training
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/sprintproject
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=Sukany@4323
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
           
   db:
     image: 'postgres:13.1-alpine'
-    container_name: db
+    container_name: dbs
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=Sukany@4323
-      - POSTGRES_DB=training
+      - POSTGRES_DB=sprintproject
      
     expose:
       - "5432:5432" 
